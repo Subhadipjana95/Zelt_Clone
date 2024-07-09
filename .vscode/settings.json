@@ -1,0 +1,13 @@
+{
+    "editor.fontSize": 16,
+    "window.zoomLevel": 1.2,
+    "editor.cursorBlinking": "smooth",  // try different values like "blink", "phase"
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 3,  // try different values
+    "editor.cursorStyle": "line",  // you can also try "block" or "underline"
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#1b99ff"  // change the color if needed
+    }
+    
+
+}
