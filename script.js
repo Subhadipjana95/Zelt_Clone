@@ -232,3 +232,15 @@ ScrollTrigger.create({
     start: `top top`,
     end: `300% top`,
 });
+
+gsap.to("#circle1",{
+    scrollTrigger: {
+        trigger: `#circle1`,
+        scroller: `#main`,
+        start: `top 90%`,
+        end: `bottom 75%`,
+        scrub: 0.2,
+        // markers: true
+    },
+    opacity: 0
+})
