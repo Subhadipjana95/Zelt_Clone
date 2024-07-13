@@ -187,8 +187,7 @@ gsap.to(imageSeq, {
     ease: `none`,
     scrollTrigger: {
         scrub: 0.15,
-        trigger: `#page1>canvas`,
-        //   set start end according to preference
+        trigger: `canvas`,
         start: `top top`,
         end: `300% top`,
         scroller: `#main`,
@@ -224,16 +223,15 @@ function scaleImage(img, ctx) {
 }
 ScrollTrigger.create({
 
-    trigger: "#page1>canvas",
+    trigger: "canvas",
     pin: true,
-    // markers:true,
     scroller: `#main`,
-    //   set start end according to preference
     start: `top top`,
     end: `300% top`,
+    // markers:true,
 });
 
-gsap.to("#circle1",{
+gsap.to("#circle1", {
     scrollTrigger: {
         trigger: `#circle1`,
         scroller: `#main`,
