@@ -37,8 +37,8 @@ html, body{
     transform: translate(-50%);
     top: 2.5%;
     border-radius: 15px;
-    background-color: #f2f1ef;
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.54);
+    backdrop-filter: blur(15px);
     z-index: 10;
 }
 #nav>img{
@@ -657,6 +657,7 @@ canvas{
     line-height: 1;
 }
 .upper10>button{
+    cursor: pointer;
     font-size: 1.1vw;
     padding: 1vw 1.2vw;
     border-radius: 10px;
