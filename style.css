@@ -300,12 +300,12 @@ canvas{
     font-size: 1vw;
     color: #9C9B99;
     transform: translateX(0);
-    transition: all ease 0.8s;
+    transition: all ease 0.5s;
 }
 .col5>.elems5>i{
     scale: 0.5;
     opacity: 0;
-    transition: all ease 0.8s;
+    transition: all ease 0.5s;
 }
 .elems5:hover .ri-arrow-right-circle-fill{
     opacity: 1;
